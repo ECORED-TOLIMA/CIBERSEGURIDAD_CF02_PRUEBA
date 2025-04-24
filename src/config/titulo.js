@@ -1,2 +1,2 @@
 module.exports =
-  'Fundamentos del ciberespacio, la ciberseguridad y los delitos informáticos'
+  'Amenazas digitales, ingeniería social y ética en ciberseguridad'
