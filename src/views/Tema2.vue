@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img01.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En ciberseguridad las vulnerabilidades representan puntos débiles o fallos en los sistemas, redes o procedimientos que pueden ser aprovechados por atacantes para comprometer la integridad, confidencialidad o disponibilidad de la información. Estas pueden originarse en diferentes capas tecnológicas, desde errores humanos hasta deficiencias técnicas en <em>software</em> o hardware. Comprenderlas y mitigarlas es fundamental para establecer una postura de seguridad efectiva.
+        p.mb-0 En ciberseguridad las vulnerabilidades representan puntos débiles o fallos en los sistemas, redes o procedimientos que pueden ser aprovechados por atacantes para comprometer la integridad, confidencialidad o disponibilidad de la información. Estas pueden originarse en diferentes capas tecnológicas, desde errores humanos hasta deficiencias técnicas en <em>software</em> o <em>hardware</em>. Comprenderlas y mitigarlas es fundamental para establecer una postura de seguridad efectiva.
         br
         br
     
@@ -41,7 +41,7 @@
                 td(style="background-color: #fff") Acceso no autorizado por ataques de fuerza bruta o uso de credenciales conocidas.
 
               tr
-                td.text-bold(style="background-color: #fff") <em>software</em> sin actualizar
+                td.text-bold(style="background-color: #fff") <em>Software</em> sin actualizar
                 td(style="background-color: #fff") Aplicaciones o sistemas con parches de seguridad pendientes.
                 td(style="background-color: #fff") <em>Exploits</em> conocidos que pueden ser utilizados fácilmente por atacantes.
 
@@ -72,7 +72,7 @@
             .cajon.cajon.color2.p-3
               .row.justify-content-center
                 .col-12.order-lg-2.order-2.mb-lg-0
-                  p Estas vulnerabilidades representan puntos críticos dentro de cualquier infraestructura tecnológica, ya que pueden ser aprovechadas por actores maliciosos para obtener acceso no autorizado, comprometer la integridad de los datos o interrumpir servicios esenciales. Aunque muchas de ellas pueden parecer simples o fácilmente evitables, su presencia suele deberse a la falta de actualización constante, la ausencia de políticas de seguridad claras o la poca conciencia de los usuarios frente a los riesgos digitales. Identificar y gestionar estas debilidades de manera proactiva es esencial para reducir la superficie de ataque y fortalecer la seguridad global del entorno informático.
+                  p.mb-0 Estas vulnerabilidades representan puntos críticos dentro de cualquier infraestructura tecnológica, ya que pueden ser aprovechadas por actores maliciosos para obtener acceso no autorizado, comprometer la integridad de los datos o interrumpir servicios esenciales. Aunque muchas de ellas pueden parecer simples o fácilmente evitables, su presencia suele deberse a la falta de actualización constante, la ausencia de políticas de seguridad claras o la poca conciencia de los usuarios frente a los riesgos digitales. Identificar y gestionar estas debilidades de manera proactiva es esencial para reducir la superficie de ataque y fortalecer la seguridad global del entorno informático.
 
           .col-lg-4.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3.d-none.d-lg-block
             figure
@@ -112,7 +112,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-12
         .row.justify-content-center.mb-3
-          .col-lg-4.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0.mb-3
+          .col-lg-4.col-12.order-lg-1.order-2.mb-lg-0.mb-3
             .tarjeta.tarjeta--gris.p-4
               .row.justify-content-center
                 .col-auto.order-lg-1.order-2.mb-lg-0.mb-3
@@ -121,7 +121,7 @@
                 .col-lg-8.col-12.mb-3.order-lg-2.order-2.mb-lg-0
                   p Aplicar parches y actualizaciones de seguridad de forma constante.
 
-          .col-lg-4.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0.mb-3
+          .col-lg-4.col-12.order-lg-1.order-2.mb-lg-0.mb-3
             .tarjeta.tarjeta--gris.p-4
               .row.justify-content-center
                 .col-auto.order-lg-1.order-2.mb-lg-0.mb-3
@@ -130,7 +130,7 @@
                 .col-lg-8.col-12.mb-3.order-lg-2.order-2.mb-lg-0
                   p Configurar correctamente los servicios y sistemas según buenas prácticas.
 
-          .col-lg-4.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0.mb-3
+          .col-lg-4.col-12.order-lg-1.order-2.mb-lg-0.mb-3
             .tarjeta.tarjeta--gris.p-4
               .row.justify-content-center
                 .col-auto.order-lg-1.order-2.mb-lg-0.mb-3
@@ -140,7 +140,7 @@
                   p Implementar el principio de mínimo privilegio en el control de accesos.
 
         .row.justify-content-center
-          .col-lg-4.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0.mb-3
+          .col-lg-4.col-12.order-lg-1.order-2.mb-lg-0.mb-3
             .tarjeta.tarjeta--gris.p-4
               .row.justify-content-center
                 .col-auto.order-lg-1.order-2.mb-lg-0.mb-3
@@ -149,7 +149,7 @@
                 .col-lg-8.col-12.mb-3.order-lg-2.order-2.mb-lg-0
                   p Usar protocolos seguros (como HTTPS, SSH) para proteger la transmisión de datos.
 
-          .col-lg-4.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0.mb-3
+          .col-lg-4.col-12.order-lg-1.order-2.mb-lg-0.mb-3
             .tarjeta.tarjeta--gris.p-4
               .row.justify-content-center
                 .col-auto.order-lg-1.order-2.mb-lg-0.mb-3
@@ -158,7 +158,7 @@
                 .col-lg-8.col-12.mb-3.order-lg-2.order-2.mb-lg-0
                   p Capacitar continuamente a los usuarios para prevenir ataques de ingeniería social.
 
-          .col-lg-4.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0.mb-3
+          .col-lg-4.col-12.order-lg-1.order-2.mb-lg-0.mb-3
             .tarjeta.tarjeta--gris.p-4
               .row.justify-content-center
                 .col-auto.order-lg-1.order-2.mb-lg-0.mb-3
@@ -171,7 +171,7 @@
       .col-lg-10.col-12
         .tarjeta.tarjeta--azul.p-4
           .row.justify-content-center.align-items-center
-            .col-auto.d-none.d-lg-block
+            .col-lg-auto.col-3.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema2/img10.svg', alt='Imagen decorativa')
             .col-lg-8.col-12.mb-3

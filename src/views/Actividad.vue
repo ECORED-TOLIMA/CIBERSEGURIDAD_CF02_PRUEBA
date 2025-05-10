@@ -22,6 +22,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> Evaluar y fortalecer la comprensión sobre las amenazas y ataques de ciberseguridad mediante la identificación de afirmaciones verdaderas y falsas, promoviendo el análisis crítico.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,

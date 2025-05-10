@@ -13,11 +13,13 @@
           .col-lg-8.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3
             p La ingeniería social consiste en engañar o influenciar a las personas para que realicen determinadas acciones o revelen información sensible. Los atacantes que emplean estas técnicas suelen aprovechar la buena voluntad, la falta de conocimiento o los puntos débiles emocionales o psicológicos de los usuarios. En lugar de vulnerar un sistema directamente, manipulan a las personas para que, sin darse cuenta, les otorguen acceso o información valiosa.
             .row
-              .col-auto.d-none.d-lg-block
-                figure
-                  img(src='@/assets/curso/temas/tema3/img02.png', alt='Imagen decorativa')
-              .col-lg-9.col-12.mb-3
-                p.mb-0 Un ejemplo común es cuando un atacante se hace pasar por una figura de autoridad y contacta a un empleado con un supuesto problema urgente. Durante la conversación, puede emplear halagos, amenazas sutiles o referencias a personas influyentes para presionar al usuario y lograr su objetivo.
+              .tarjeta.tarjeta--C01.p-4
+                .row.justify-content-center
+                  .col-auto.d-none.d-lg-block
+                    figure
+                      img(src='@/assets/curso/temas/tema3/img02.png', alt='Imagen decorativa')
+                  .col-lg-9.col-12.mb-0
+                    p.mb-0 Un ejemplo común es cuando un atacante se hace pasar por una figura de autoridad y contacta a un empleado con un supuesto problema urgente. Durante la conversación, puede emplear halagos, amenazas sutiles o referencias a personas influyentes para presionar al usuario y lograr su objetivo.
 
           .col-lg-4.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3
             figure
@@ -27,10 +29,10 @@
       .col-lg-10.col-12
         .tarjeta.tarjeta--azul.p-4
           .row.justify-content-center.align-items-center
-            .col-auto.d-none.d-lg-block
+            .col-lg-auto.col-3.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/temas/tema2/img07.svg', alt='Imagen decorativa')
-            .col-lg-8.col-12.mb-3
+                img(src='@/assets/curso/temas/tema3/img14.svg', alt='Imagen decorativa')
+            .col-lg-9.col-12.mb-3
               h4(style="color: #6018EC")  La ingeniería social 
               p.mb-0 A continuación, se presenta un video sobre la ingeniería social, en el cual se explican los principios básicos de esta técnica de manipulación, sus principales métodos de ejecución y los riesgos que representa para la seguridad de la información.
             .col-auto
@@ -50,7 +52,7 @@
           img(src='@/assets/curso/temas/tema3/img03.svg' alt="Imagen decorativa" style="width: 120px").m-auto
           .tarjeta.color-hover
             .p-4
-              P.text-center <b><em>phishing</em>:</b> envío de correos electrónicos fraudulentos que aparentan ser legítimos para obtener credenciales o instalar <em>malware</em>.
+              P.text-center <b><em>Phishing</em>:</b> envío de correos electrónicos fraudulentos que aparentan ser legítimos para obtener credenciales o instalar <em>malware</em>.
 
       .col-lg-4.col-lg.mb-5.mb-lg-0(data-aos="flip-down")
         .tarjeta-avatar

@@ -30,7 +30,7 @@
             .col-12.px-0
               figure
                 img(src='@/assets/curso/temas/tema5/img02.png', style="width: 100%" ,alt='').m-auto
-            .col-12.bg-c1
+            .col-12.bg-c1(style="height:100%")
               .p-4
                 p <b>Privacidad de los datos personales:</b> el acceso, almacenamiento y uso de información privada sin consentimiento plantea dilemas importantes. Empresas, gobiernos o ciberdelincuentes pueden vulnerar la privacidad, lo que exige establecer límites claros sobre el tratamiento de los datos y garantizar la protección de la información sensible.
 
@@ -39,9 +39,10 @@
             .col-12.px-0
               figure
                 img(src='@/assets/curso/temas/tema5/img03.png', style="width: 100%" ,alt='').m-auto
-            .col-12.bg-c1
+            .col-12.bg-c1.h-100
               .p-4
                 p <b><em>Hacking</em> ético vs. <em>Hacking</em> malicioso:</b> distinguir entre el uso legítimo de técnicas de <em>Hacking</em> para fortalecer la seguridad y el uso con fines ilícitos es crucial. El <em>Hacking</em> ético se realiza con autorización y persigue prevenir riesgos, mientras que el <em>Hacking</em> malicioso busca dañar, espiar o robar.
+                br
 
       .row.justify-content-center.mb-5(data-aos="flip-down")
         .col-md-8.col-lg.m-2
@@ -49,7 +50,7 @@
             .col-12.px-0
               figure
                 img(src='@/assets/curso/temas/tema5/img04.png', style="width: 100%" ,alt='').m-auto
-            .col-12.bg-c1
+            .col-12.bg-c1(style="height:100%")
               .p-4
                 p <b>Vigilancia masiva:</b> la recopilación de datos a gran escala por parte de gobiernos o corporaciones, con fines de control o seguridad, puede derivar en prácticas invasivas. Este tipo de vigilancia debe estar regulada para no vulnerar derechos fundamentales como la privacidad o la libertad de expresión.
 
@@ -58,7 +59,7 @@
             .col-12.px-0
               figure
                 img(src='@/assets/curso/temas/tema5/img05.png', style="width: 100%" ,alt='').m-auto
-            .col-12.bg-c1
+            .col-12.bg-c1(style="height:100%")
               .p-4
                 p <b>Uso de inteligencia artificial en ciberseguridad:</b> las decisiones automatizadas que se aplican a la seguridad digital pueden reproducir o amplificar sesgos si los algoritmos no están bien diseñados o auditados. Esto plantea el desafío de garantizar transparencia, equidad y control humano en el uso de la IA.
       
@@ -67,25 +68,25 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
         .col-lg-10.col-12
           .row.justify-content-center.align-items-center.tarjeta.tarjeta--C01
-            .col-lg-9.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0.mb-3.p-4.px-5
+            .col-lg-9.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0.mb-3.p-4.px-4
               .row.justify-content-center
                 ul.lista-ul--color.lista-ul
-                  li.mb-3
+                  li.mb-4
                     i.fas.fa-shield
                     p.mb-0 <b>Confidencialidad:</b> proteger la información contra accesos no autorizados.
-                  li.mb-3
+                  li.mb-4
                     i.fas.fa-shield
                     p.mb-0 <b>Integridad:</b> asegurar que los datos no sean modificados sin autorización.
-                  li.mb-3
+                  li.mb-4
                     i.fas.fa-shield
                     p.mb-0 <b>Transparencia:</b> comunicar de manera clara cómo se recopila, usa y protege la información.
-                  li.mb-3
+                  li.mb-4
                     i.fas.fa-shield
                     p.mb-0 <b>Responsabilidad:</b> asumir las consecuencias de las decisiones tomadas en entornos digitales.
-                  li.mb-3
+                  li.mb-0
                     i.fas.fa-shield
                     p.mb-0 <b>Legalidad:</b> actuar conforme a las leyes vigentes en materia de ciberseguridad.
-            .col-lg-3.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3.px-0
+            .col-lg-auto.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3.px-0
               figure
                 img(src='@/assets/curso/temas/tema5/img06.png', alt='Imagen decorativa')   
 
@@ -95,25 +96,25 @@
       .col-8.col-lg.bg-c2.m-2
         .p-4
           figure.mb-4
-            img(src='@/assets/curso/temas/tema5/img08.svg', style="width: 90px" ,alt='')
+            img(src='@/assets/curso/temas/tema5/img08.svg', style="width: 50px" ,alt='')
           p.text-white #[b ¿Es aceptable vulnerar sistemas para denunciar injusticias (hacktivismo)?]
           
       .col-8.col-lg.bg-c2.m-2
         .p-4
           figure.mb-4
-            img(src='@/assets/curso/temas/tema5/img09.svg', style="width: 90px" ,alt='')
+            img(src='@/assets/curso/temas/tema5/img09.svg', style="width: 50px" ,alt='')
           p.text-white #[b ¿Debe reportarse una vulnerabilidad a la empresa o hacerla pública?]
           
       .col-8.col-lg.bg-c2.m-2
         .p-4
           figure.mb-4
-            img(src='@/assets/curso/temas/tema5/img10.svg', style="width: 90px" ,alt='')
+            img(src='@/assets/curso/temas/tema5/img10.svg', style="width: 50px" ,alt='')
           p.text-white #[b ¿Es ético que los gobiernos accedan a datos personales para prevenir delitos?]
           
       .col-8.col-lg.bg-c2.m-2
         .p-4
           figure.mb-4
-            img(src='@/assets/curso/temas/tema5/img11.svg', style="width: 90px" ,alt='')
+            img(src='@/assets/curso/temas/tema5/img11.svg', style="width: 50px" ,alt='')
           p.text-white <b>¿Se justifica el uso de <em>malware</em> con fines de defensa nacional?</b>
 
     p.mb-5(data-aos="fade-down") El <em>hackeo</em> ético representa una respuesta a estos dilemas, al permitir pruebas controladas de seguridad bajo autorización formal, con el objetivo de fortalecer los sistemas informáticos.
@@ -179,7 +180,7 @@
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema5',
   data: () => ({
     // variables de vue
   }),

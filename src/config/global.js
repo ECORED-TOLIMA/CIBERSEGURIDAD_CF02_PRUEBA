@@ -3,7 +3,7 @@ export default {
     Name: 'Amenazas digitales, ingeniería social y ética en ciberseguridad',
     Description:
       'Ese componente formativo establece las bases para comprender las amenazas digitales, la ingeniería social y la ética en ciberseguridad. Aborda tipos de ataques, vulnerabilidades, estrategias de manipulación, medidas preventivas y normativas éticas, proporcionando herramientas clave para la gestión de incidentes y la protección de la información en entornos digitales.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -217,13 +217,6 @@ export default {
         'Ecosistema de Recursos Educativos Digitales. (2022, abril 27). ¿En qué se diferencian los hackers éticos de los hackers maliciosos? [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=b4X4Rh4eNyU',
-    },
-    {
-      tema: '6. Reportes y gestión de incidentes en ciberseguridad',
-      referencia:
-        'Sabillón, R., Serra-Ruiz, J., & Cano, J. (2019). Auditorías en ciberseguridad: Un modelo de aplicación general para instituciones académicas. Revista Ibérica de Sistemas e Tecnologías de Informação, (32), 45–58.',
-      tipo: 'Articulo',
-      link: 'https://scielo.pt/pdf/rist/n32/n32a04.pdf',
     },
   ],
   glosario: [

@@ -1,6 +1,8 @@
 .acordion
   position: relative
-
+  .acordion__activo
+    background-color: #DBF5FF
+  
   &__header
     display: flex
     align-items: center
@@ -15,13 +17,12 @@
         height: 40px
         border-radius: 50%
         position: relative
-
+        
         i
           position: absolute
           top: 50%
           left: 50%
-          transform: translate(-50%,-50%)
-
+          transform: translate(-50%,-50%)        
 
       &--a
         background-color: $white
@@ -29,6 +30,10 @@
 
       &--b
         border: 1px solid $color-sistema-a
+    .acordion__accion__btn--b
+      background-color: #4C13BC
+    .acordion__accion__btn--b i
+      color: #fff
 
   &__titulo
 

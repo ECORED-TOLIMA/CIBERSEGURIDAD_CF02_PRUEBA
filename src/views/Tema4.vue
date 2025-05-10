@@ -110,14 +110,14 @@
           .row.justify-content-center.p-4(titulo=" ")
             .col-lg-7.order-lg-1.order-2
               h4 Autenticación en dos pasos (2FA)
-              p Añade una verificación adicional para acceder a cuentas. Herramientas como Google Authenticator, Microsoft Authenticator, Duo Security o Authy ofrecen opciones seguras. Incluso existen soluciones físicas como YubiKey.
+              p Añade una verificación adicional para acceder a cuentas. Herramientas como Google Authenticator, Microsoft Authenticator, Duo Security o Authy ofrecen opciones seguras. Incluso existen soluciones físicas como <em>YubiKey</em>.
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema4/img09.png', alt='Imagen decorativa')
 
           .row.justify-content-center.p-4(titulo=" ")
             .col-lg-7.order-lg-1.order-2
-              h4 Firewalls
+              h4 <em>Firewalls</em>
               p Dispositivos que filtran el tráfico de red para bloquear accesos no autorizados. Ejemplos: Cisco ASA, Fortinet FortiGate y Palo Alto Networks.
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
@@ -161,7 +161,7 @@
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema4',
   data: () => ({
     // variables de vue
   }),
